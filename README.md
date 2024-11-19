@@ -35,6 +35,9 @@ Welcome to the E-commerce  project! This project is designed to provide a robust
 # How to Run the Project
 
 Follow these steps to set up and run the project:
+  ```sh
+    composer install
+    ```
 
 1. **Install dependencies:**
     ```sh
