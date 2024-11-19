@@ -36,36 +36,36 @@ Welcome to the E-commerce  project! This project is designed to provide a robust
 
 Follow these steps to set up and run the project:
 
-   **Install dependencies:**
+1.  **Install dependencies:**
     ```sh
     composer install
     ```
-1. **Install dependencies:**
+2. **Install dependencies:**
     ```sh
     npm install
     ```
 
-2. **Set up environment variables:**
+3. **Set up environment variables:**
     Create a `.env` file in the root directory and add the necessary environment variables. Refer to `.env.example` for the required variables.
 
-3. **Run the development server:**
+4. **Run the development server:**
     ```sh
     npm start
     ```
 
-4. **Build for production:**
+5. **Build for production:**
     ```sh
     npm run build
     ```
 
-5. **Run tests:**
+6. **Run tests:**
     ```sh
     npm test
     ```
 
-For more detailed instructions, refer to the documentation in the `docs` directory.
 
-6. **Set up Laravel configuration:**
+
+7. **Set up Laravel configuration:**
 
     - **Copy `.env.example` to `.env`:**
     
@@ -89,4 +89,12 @@ For more detailed instructions, refer to the documentation in the `docs` directo
              php artisan serve
           ```
 
+         ```sh
+             npm run dev
+          ```
+
     
+
+**Adding admin run this command**
+
+        php artisan make:filament-user
