@@ -36,10 +36,10 @@ Welcome to the E-commerce  project! This project is designed to provide a robust
 
 Follow these steps to set up and run the project:
 
-  ```sh
+   **Install dependencies:**
+    ```sh
     composer install
     ```
-
 1. **Install dependencies:**
     ```sh
     npm install
